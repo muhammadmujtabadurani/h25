@@ -48,3 +48,13 @@ let obj = {
 for(let n in obj){
     console.log(n , obj[n]);
 }
+
+let num = prompt("Enter You Number");
+for(let i=0; i<=num; i++){
+    if(i%2==0){
+        console.log(`${i} is Even`);
+    }
+    else{
+        console.log(`${i} is odd`);
+    }
+}
