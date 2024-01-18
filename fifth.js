@@ -35,3 +35,8 @@ let sweetdish = ["CUSTARD","icecream","Gulab gamun","halwa"];
 
 let menu = bbq.concat(seaFood , sweetdish);
 console.log(menu);
+
+let word = "Hello"
+console.log(word);
+word[0] = "M";
+console.log(word);
